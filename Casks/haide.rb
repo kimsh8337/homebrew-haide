@@ -1,6 +1,6 @@
 cask "haide" do
-  version "1.0.1"
-  sha256 "4153faf4fbac58dd28afe87d9d5bdeb84e1061ba376d4bb8a16194def7144ea6"
+  version "1.0.2"
+  sha256 "e4b3f853ee8d6a4cf6ed38d59905eac62d5a9de22aea84174454bf63645a37df"
 
   url "https://github.com/kimsh8337/haide-releases/releases/download/v#{version}/Haide-#{version}-arm64.dmg"
   name "Haide"
