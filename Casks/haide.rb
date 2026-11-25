@@ -8,6 +8,7 @@ cask "haide" do
   homepage "https://github.com/kimsh8337/haide-releases"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Haide.app"
   binary "#{appdir}/Haide.app/Contents/Resources/bin/haide"
