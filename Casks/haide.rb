@@ -4,11 +4,10 @@ cask "haide" do
 
   url "https://github.com/kimsh8337/haide-releases/releases/download/v#{version}/Haide-#{version}-arm64.dmg"
   name "Haide"
-  desc "IDE + ADE: run Claude Code and Codex agents per Git worktree and review their code"
+  desc "Agent development environment and IDE for Claude Code and Codex"
   homepage "https://github.com/kimsh8337/haide-releases"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :big_sur"
 
   app "Haide.app"
   binary "#{appdir}/Haide.app/Contents/Resources/bin/haide"
