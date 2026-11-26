@@ -1,11 +1,12 @@
-# homebrew-haide
+# homebrew-haide (archived)
 
-Homebrew tap for [Haide](https://github.com/kimsh8337/haide-releases) (Apple Silicon Mac).
+Homebrew installation of [Haide](https://github.com/kimsh8337/haide-releases) is no longer supported.
+Download the DMG from [Releases](https://github.com/kimsh8337/haide-releases/releases/latest) instead.
+
+If you installed with Homebrew before, remove the Homebrew record and reinstall from the DMG
+(settings in `~/.haide` are kept):
 
 ```bash
-brew tap kimsh8337/haide
-brew trust kimsh8337/haide                 # Homebrew asks you to trust third-party taps once
-brew install --cask kimsh8337/haide/haide   # install (also puts the `haide` CLI on PATH)
-brew upgrade --cask haide                   # update — quit Haide first
-brew uninstall --cask haide                 # remove (add --zap to also delete ~/.haide)
+brew uninstall --cask --force haide
+brew untap kimsh8337/haide
 ```
